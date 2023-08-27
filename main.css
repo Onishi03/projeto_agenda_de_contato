@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: powderblue;
+    background-color: #e7e7e7;
     padding-top: 100px;
 }
 
@@ -44,9 +44,8 @@ form input {
     font-size: 24px;
     background-color: white;
     border: none;
-    border-bottom: 2px solid paleturquoise;
+    border-bottom: 2px solid black;
     padding: 8px;
-    margin-left: 8px;
 }
 
 form button {
@@ -57,7 +56,6 @@ form button {
     border: none;
     cursor: pointer;
     padding: 8px;
-    margin-left: 8px;
 }
 
 table {
@@ -75,9 +73,25 @@ table td{
     padding: 16px 0;
     text-align: center;
     font-size: 18px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0,0.1);
 }
 
 table td img {
     height: 30px;
+}
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.aprovado {
+    background-color: #009432;
+}
+
+.reprovado {
+    background-color:  red;
 }
